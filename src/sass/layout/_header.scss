@@ -10,7 +10,6 @@
         width: 25rem;
 
         @include respond(tab-port){
-            top: 1rem;
             width: 20rem;
         }
     }
@@ -40,6 +39,10 @@
                     padding: 1rem 1rem;
                     transition: ease all .2s;
                     color: $color-white;
+
+                    @include respond(tab-port){
+                        font-size: 2rem;
+                    }
                 }
 
                 a:hover{

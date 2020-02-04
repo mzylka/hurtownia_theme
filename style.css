@@ -104,7 +104,6 @@ body {
     width: 25rem; }
     @media (max-width: 56.25em) {
       .header__logo-box {
-        top: 1rem;
         width: 20rem; } }
   .header__logo {
     max-width: 100%;
@@ -125,6 +124,9 @@ body {
           padding: 1rem 1rem;
           transition: ease all .2s;
           color: #fff; }
+          @media (max-width: 56.25em) {
+            .header__navbar .menu li a:link, .header__navbar .menu li a:visited {
+              font-size: 2rem; } }
         .header__navbar .menu li a:hover {
           background-color: #005005; }
 
