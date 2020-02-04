@@ -1,0 +1,51 @@
+.footer{
+    background-color: $color-primary;
+    max-width: 100%;
+    padding-top: 6rem;
+    color: $color-grey-light-1;
+
+    &__logo-box{
+        text-align: center;
+        margin-bottom: 5rem;
+
+    }
+
+    &__contact{
+        border-top: 1px solid $color-grey-light-1;
+        padding-top: 2rem;
+
+        ul{
+            list-style: none;
+        }
+    }
+
+    &__map{
+        margin-top: 1.5rem;
+    }
+
+    &__info{
+        border-top: 1px solid $color-grey-light-1;
+        padding-top: 2rem;
+
+        ul{
+            list-style: none;
+
+            li{
+                a:link, a:visited{
+                    text-decoration: none;
+                    color: $color-grey-light-1;
+
+                    &:hover{
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    &__copyright{
+        text-align: center;
+        font-size: 1.3rem;
+        background-color: $color-primary-dark;
+    }
+}

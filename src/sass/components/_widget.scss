@@ -1,0 +1,17 @@
+.widget{
+    list-style-type: none;
+
+    &__button{
+        text-align: center;
+        color: $color-primary;
+        font-weight: 700;
+        font-size: 2rem;
+        cursor: pointer;
+        display: none;
+    
+        @include respond(tab-port){
+            display: block;
+        }
+        
+    }
+}
