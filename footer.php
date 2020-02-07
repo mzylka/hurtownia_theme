@@ -9,7 +9,7 @@
                 <ul>
                     <li>Kołobrzeg 78-100, ul. Wylotowa 87</li>
                     <li>tel: (+48)606 637 713</li>
-                    <li>Godziny otwarcia: 10.00-18.00</li>
+                    <li>Godziny otwarcia od poniedziałku do piątku: 10.00-18.00, w sobotę: 10.00-14.00</li>
                     <li>e-mail: fanta001@interia.pl</li>
                 </ul>
                 <div class="footer__map">
