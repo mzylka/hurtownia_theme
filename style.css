@@ -116,7 +116,7 @@ body {
       margin: 0;
       padding: 0; }
       .header__navbar .menu li {
-        display: inline; }
+        display: inline-block; }
         .header__navbar .menu li a:link, .header__navbar .menu li a:visited {
           display: block;
           text-decoration: none;
