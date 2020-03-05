@@ -6,9 +6,14 @@
         margin-bottom: $gutter-vertical;
     }
 
+
     @include respond(tab-port){
         max-width: 75rem;
-        padding: 0 2rem;
+        padding: 3rem;
+    }
+
+    @include respond(phone){
+        padding: 0;
     }
 
     @include clearfix;

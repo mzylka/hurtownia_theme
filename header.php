@@ -15,12 +15,10 @@
 <body <?php body_class();?> >
 
 <header class="header">
-    <div class="row">
-        <div class="header__logo-box">
-            <a href="<?php bloginfo('url'); ?>">
+    <div class="header__container">
+        <a href="https://hurtowniaantykow.pl" class="header__logo-box">
                 <img src="<?php bloginfo('template_directory');?>/images/hurtownia-logo.png" class="header__logo">
-            </a>
-        </div>
+        </a>
         <div class="header__navbar">
             <?php
                 wp_nav_menu(
